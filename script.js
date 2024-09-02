@@ -3,7 +3,7 @@ let alessandro = {
     'cognome' : 'Consoli',
     'età' : 42,
     'saluta' : function() {
-        console.log('Ciao a tutti da Alessandro!');
+        console.log(`Ciao a tutti sono ${this.nome} ${this.cognome} ed ho ${this.età} anni!`);
         
     }
 };
